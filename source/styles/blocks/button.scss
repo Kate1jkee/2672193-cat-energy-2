@@ -1,0 +1,13 @@
+.button {
+  @include font-text-secondary(16px, 20px, $color-text-special);
+  background-color: $bg-color-bright;
+}
+
+.button--special {
+  @include font-text-secondary(16px, 20px, $color-text-base);
+  background-color: $bg-color-base;
+}
+
+.button--submit {
+  @include font-text-secondary(20px, 26px, $color-text-special);
+}

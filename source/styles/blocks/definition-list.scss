@@ -1,0 +1,15 @@
+.definition-list {
+
+}
+
+.definition-list__wrapper {
+
+}
+
+.definition-list__description {
+  @include font-text-primary(12px, 12px, $color-text-base);
+}
+
+.definition-list__term {
+  @include font-text-secondary(24px, 24px, $color-text-dark);
+}

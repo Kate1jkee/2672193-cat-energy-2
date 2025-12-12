@@ -1,0 +1,11 @@
+.benefits {
+
+}
+
+.benefits__item {
+
+}
+
+.benefits__description {
+  @include font-text-primary(14px, 18px, $color-text-base);
+}
