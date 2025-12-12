@@ -1,0 +1,11 @@
+.social-list {
+
+}
+
+.social-list__item {
+
+}
+
+.social-list__link {
+  @include font-text-secondary(16px, 16px, $color-text-dark);
+}
